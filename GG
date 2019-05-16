@@ -110,3 +110,6 @@ for i in range (m):
             soma += int(x[i+3][l])*int(y[l+3][j])
         linha.append(soma)
     MAT.append(linha)
+
+
+https://github.com/Igor-Torres/calculadora/blob/master/calculadora%20matricial.py
