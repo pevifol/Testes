@@ -48,12 +48,12 @@ def criar_matriz():
         resp = int(input(print("Digite 1 para salvar o resultado \nDigite 2 para criar a matriz novamente ou \nDigite 3 para retornar ao menu inicial. ")))
     if resp == 1 :
         print("Tudo bem")
-        salvarmatriz(mat):
+        salvarmatriz(mat)
         return menu()
                 
     if resp == 2 :
         print("Tudo bem")
-        return criar_matriz():
+        return criar_matriz()
     
     else:
         return menu()
@@ -95,7 +95,7 @@ def criar_identidade():
                 
     if resp == 2 :
         print("Tudo bem")
-        return criar_identidade():        
+        return criar_identidade()  
         
     else:
         return menu()
